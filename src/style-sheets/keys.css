@@ -1,0 +1,42 @@
+.keysHolder
+{
+    width: inherit;
+    height: 300px;
+    background-color: #e8eaec;
+
+}
+/* .keysHolder .badge
+{
+    font-size: 13px;
+    width: 100px;
+    padding: 10px;
+    border-radius: unset;
+    background-color: white;
+    color:#6c757d;
+    background-color: rgba(255,255,255,.85);
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.1);
+    
+} */
+
+.tst
+{
+    max-width: 100px !important;    display: inline-block !important;
+    margin-left: 4px;
+
+}
+.toast:not(:last-child)
+{
+    margin-bottom: unset !important;
+}
+
+.keysBtn,.keysBtn:hover,.keysBtn:active,.keysBtn:focus
+{
+    background-color: white !important;
+    color:grey !important;
+    border:transparent !important;
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.1) !important;
+    margin-right: 5px;
+    font-weight: bold;
+}
